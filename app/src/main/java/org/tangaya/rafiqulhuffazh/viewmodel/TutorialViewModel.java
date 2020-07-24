@@ -17,7 +17,7 @@ public class TutorialViewModel extends AndroidViewModel {
     public TutorialViewModel(Application context) {
         super(context);
 
-        tutorialText.set("tekan tombol di atas untuk merekam");
+        tutorialText.set("Press above button to record");
         Log.d("TVM", tutorialText.get());
     }
 
